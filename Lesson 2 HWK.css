@@ -1,0 +1,59 @@
+body {
+    background-image: url("hs.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: darkkhaki;
+}
+
+h1 {
+
+    width: 364px;
+    height: 200px;
+    background-color: rgb(28, 180, 20);
+    animation-name: HWKanimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes HWKanimation {
+    0% {background-color: rgb(169, 177, 12);}
+
+    25% {background-color:brown;}
+
+    50% {background-color:cornflowerblue;}
+
+    75% {background-color:fuchsia;}
+
+    100% {background-color:rgb(25, 175, 175);}
+
+}
+
+h2 {
+    animation-name: secondHWKanimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes secondHWKanimation {
+    0% {
+        color: yellow;
+    }
+
+    10% {
+        color: rgb(170, 78, 7);
+    }
+
+    20% {
+        color: rgb(234, 25, 213);
+    }
+
+    30% {
+        color: rgb(44, 205, 60)
+    }
+
+    40% {
+        color: rgb(45, 59, 212);
+    }
+
+}
